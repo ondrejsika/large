@@ -1,4 +1,4 @@
-module large
+module github.com/ondrejsika/large
 
 go 1.19
 
