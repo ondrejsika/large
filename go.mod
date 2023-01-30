@@ -33,6 +33,8 @@ replace (
 )
 
 require (
+	github.com/ondrejsika/training-cli v0.5.0
+	github.com/sikalabs/signpost v0.1.0
 	github.com/sikalabs/slu v0.61.0
 	github.com/spf13/cobra v1.6.1
 )
