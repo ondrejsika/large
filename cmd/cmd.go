@@ -7,6 +7,8 @@ import (
 	signpost_root "github.com/sikalabs/signpost/cmd/root"
 	_ "github.com/sikalabs/slu/cmd"
 	slu_root "github.com/sikalabs/slu/cmd/root"
+	_ "github.com/sikalabs/tergum/cmd"
+	tergum_root "github.com/sikalabs/tergum/cmd/root"
 	"github.com/spf13/cobra"
 )
 
@@ -19,6 +21,7 @@ func init() {
 	LargeCmd.AddCommand(slu_root.RootCmd)
 	LargeCmd.AddCommand(training_cli_root.Cmd)
 	LargeCmd.AddCommand(signpost_root.Cmd)
+	LargeCmd.AddCommand(tergum_root.Cmd)
 }
 
 func Execute() {
