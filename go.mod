@@ -35,6 +35,7 @@ replace (
 
 require (
 	github.com/ondrejsika/training-cli v0.5.0
+	github.com/sikalabs/gobble v0.2.0
 	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/signpost v0.1.0
 	github.com/sikalabs/slu v0.62.1-0.20230203213149-0daa71e03d9e
@@ -224,7 +225,7 @@ require (
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.4.0 // indirect
-	golang.org/x/exp v0.0.0-20210901193431-a062eea981d2 // indirect
+	golang.org/x/exp v0.0.0-20221230185412-738e83a70c30 // indirect
 	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/oauth2 v0.3.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
