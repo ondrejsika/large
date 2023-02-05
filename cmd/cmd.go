@@ -3,6 +3,8 @@ package cmd
 import (
 	_ "github.com/ondrejsika/training-cli/cmd"
 	training_cli_root "github.com/ondrejsika/training-cli/cmd/root"
+	_ "github.com/sikalabs/install-slu/cmd"
+	install_slu_root "github.com/sikalabs/install-slu/cmd/root"
 	_ "github.com/sikalabs/signpost/cmd"
 	signpost_root "github.com/sikalabs/signpost/cmd/root"
 	_ "github.com/sikalabs/slu/cmd"
@@ -22,6 +24,7 @@ func init() {
 	LargeCmd.AddCommand(training_cli_root.Cmd)
 	LargeCmd.AddCommand(signpost_root.Cmd)
 	LargeCmd.AddCommand(tergum_root.Cmd)
+	LargeCmd.AddCommand(install_slu_root.Cmd)
 }
 
 func Execute() {

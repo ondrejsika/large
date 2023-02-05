@@ -35,6 +35,7 @@ replace (
 
 require (
 	github.com/ondrejsika/training-cli v0.5.0
+	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/signpost v0.1.0
 	github.com/sikalabs/slu v0.62.1-0.20230203213149-0daa71e03d9e
 	github.com/sikalabs/tergum v0.34.1-0.20230203191835-60e0f31aceaf
