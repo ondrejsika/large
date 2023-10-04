@@ -34,6 +34,7 @@ replace (
 )
 
 require (
+	github.com/ondrejsika/nela-cli v0.2.0
 	github.com/ondrejsika/training-cli v0.5.0
 	github.com/sikalabs/gobble v0.2.0
 	github.com/sikalabs/install-slu v0.1.0
@@ -66,6 +67,7 @@ require (
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aws/aws-sdk-go v1.38.49 // indirect
+	github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bombsimon/logrusr/v2 v2.0.1 // indirect
 	github.com/bradleyfalzon/ghinstallation/v2 v2.0.4 // indirect
@@ -185,6 +187,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/oklog/run v1.0.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/ondrejsika/gosendmail v0.4.0 // indirect
@@ -202,6 +205,7 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
+	github.com/qeesung/image2ascii v1.0.1 // indirect
 	github.com/r3labs/diff v1.1.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
@@ -216,6 +220,7 @@ require (
 	github.com/vmihailenco/go-tinylfu v0.2.1 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.4 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
+	github.com/wayneashleyberry/terminal-dimensions v1.1.0 // indirect
 	github.com/xanzy/go-gitlab v0.79.1 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca // indirect
