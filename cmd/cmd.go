@@ -20,7 +20,7 @@ import (
 
 var LargeCmd = &cobra.Command{
 	Use:   "large",
-	Short: "large: slu, signpost & training-cli in large binary",
+	Short: "large: slu, gobble, signpost, ... in one binary",
 }
 
 func init() {
