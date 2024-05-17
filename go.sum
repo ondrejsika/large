@@ -851,8 +851,8 @@ github.com/sikalabs/install-slu v0.1.0 h1:QSKPLVEUUSsOutDXAgnUDci1w8Fy5tr80jOCA+
 github.com/sikalabs/install-slu v0.1.0/go.mod h1:EzGbW6O9GBNMGDXs3juAqTw33Higj0lKLz3UljtaLOI=
 github.com/sikalabs/mon v0.1.0-dev-1 h1:UFCmXfLEWwj5zIsDfksNV58vLI3ZOfFvnU11Pc6TOiU=
 github.com/sikalabs/mon v0.1.0-dev-1/go.mod h1:Y68XgqHBkiIIE8UMGYoEQamzVi+7gGkmoS/rizGX+XA=
-github.com/sikalabs/signpost v0.1.0 h1:IayjH/irBc7fu1d3ny2hWQnrRTHWR7bio1tcwX3oNlY=
-github.com/sikalabs/signpost v0.1.0/go.mod h1:USvh1oS+iIuJOdTH8i4IZdlWM0EoKuGuQlvVx9T7/Vc=
+github.com/sikalabs/signpost v0.5.0 h1:+e1mLXpGAoGqQotSuQAAJICoRiCcGoi1Tfjhw6IgNmA=
+github.com/sikalabs/signpost v0.5.0/go.mod h1:NVFiPPjEXidDCs8lwrO9+dMTTgV70e0Vvey34aegmEQ=
 github.com/sikalabs/slc v0.1.0 h1:6kSYS794klodXxFHWy4eVWPKBuHR23bTes2zph12IUY=
 github.com/sikalabs/slc v0.1.0/go.mod h1:26f6SmgOc8wf4uJArbjVzzQheqF4DfyFMwAoQL2h/qM=
 github.com/sikalabs/slu v0.72.0 h1:lqC/Z4Y8PsCaRMytF8uD6ecvNDE+hsYO7TEgwLUM73s=

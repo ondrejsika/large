@@ -41,7 +41,7 @@ require (
 	github.com/sikalabs/gobble v0.6.0
 	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/mon v0.1.0-dev-1
-	github.com/sikalabs/signpost v0.1.0
+	github.com/sikalabs/signpost v0.5.0
 	github.com/sikalabs/slc v0.1.0
 	github.com/sikalabs/slu v0.72.0
 	github.com/sikalabs/tergum v0.35.0
