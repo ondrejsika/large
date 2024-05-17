@@ -853,6 +853,8 @@ github.com/sikalabs/mon v0.1.0-dev-1 h1:UFCmXfLEWwj5zIsDfksNV58vLI3ZOfFvnU11Pc6T
 github.com/sikalabs/mon v0.1.0-dev-1/go.mod h1:Y68XgqHBkiIIE8UMGYoEQamzVi+7gGkmoS/rizGX+XA=
 github.com/sikalabs/signpost v0.1.0 h1:IayjH/irBc7fu1d3ny2hWQnrRTHWR7bio1tcwX3oNlY=
 github.com/sikalabs/signpost v0.1.0/go.mod h1:USvh1oS+iIuJOdTH8i4IZdlWM0EoKuGuQlvVx9T7/Vc=
+github.com/sikalabs/slc v0.1.0 h1:6kSYS794klodXxFHWy4eVWPKBuHR23bTes2zph12IUY=
+github.com/sikalabs/slc v0.1.0/go.mod h1:26f6SmgOc8wf4uJArbjVzzQheqF4DfyFMwAoQL2h/qM=
 github.com/sikalabs/slu v0.72.0 h1:lqC/Z4Y8PsCaRMytF8uD6ecvNDE+hsYO7TEgwLUM73s=
 github.com/sikalabs/slu v0.72.0/go.mod h1:3lq4ufWr6oDeXJbhSWTMue5s3Q6Ch5SbKz122zaSaYg=
 github.com/sikalabs/tergum v0.35.0 h1:CKsCyrqEa2HTD/wybmo+cA1twkz4H3TZ8mA3vuuSjf4=

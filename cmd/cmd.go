@@ -13,6 +13,8 @@ import (
 	mon_root "github.com/sikalabs/mon/cmd/root"
 	_ "github.com/sikalabs/signpost/cmd"
 	signpost_root "github.com/sikalabs/signpost/cmd/root"
+	_ "github.com/sikalabs/slc/cmd"
+	slc_root "github.com/sikalabs/slc/cmd/root"
 	_ "github.com/sikalabs/slu/cmd"
 	slu_root "github.com/sikalabs/slu/cmd/root"
 	_ "github.com/sikalabs/tergum/cmd"
@@ -34,6 +36,7 @@ func init() {
 	LargeCmd.AddCommand(gobble_root.Cmd)
 	LargeCmd.AddCommand(nela_root.Cmd)
 	LargeCmd.AddCommand(mon_root.Cmd)
+	LargeCmd.AddCommand(slc_root.RootCmd)
 }
 
 func Execute() {
