@@ -9,6 +9,8 @@ import (
 	gobble_root "github.com/sikalabs/gobble/cmd/root"
 	_ "github.com/sikalabs/install-slu/cmd"
 	install_slu_root "github.com/sikalabs/install-slu/cmd/root"
+	_ "github.com/sikalabs/mon/cmd"
+	mon_root "github.com/sikalabs/mon/cmd/root"
 	_ "github.com/sikalabs/signpost/cmd"
 	signpost_root "github.com/sikalabs/signpost/cmd/root"
 	_ "github.com/sikalabs/slu/cmd"
@@ -31,6 +33,7 @@ func init() {
 	LargeCmd.AddCommand(install_slu_root.Cmd)
 	LargeCmd.AddCommand(gobble_root.Cmd)
 	LargeCmd.AddCommand(nela_root.Cmd)
+	LargeCmd.AddCommand(mon_root.Cmd)
 }
 
 func Execute() {

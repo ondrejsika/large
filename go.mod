@@ -1,6 +1,8 @@
 module github.com/ondrejsika/large
 
-go 1.19
+go 1.21
+
+toolchain go1.22.3
 
 replace (
 	cloud.google.com/go => cloud.google.com/go v0.100.2
@@ -38,10 +40,11 @@ require (
 	github.com/ondrejsika/training-cli v0.5.0
 	github.com/sikalabs/gobble v0.6.0
 	github.com/sikalabs/install-slu v0.1.0
+	github.com/sikalabs/mon v0.1.0-dev-1
 	github.com/sikalabs/signpost v0.1.0
 	github.com/sikalabs/slu v0.72.0
 	github.com/sikalabs/tergum v0.35.0
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 )
 
 require (
@@ -89,7 +92,7 @@ require (
 	github.com/cloudflare/circl v1.3.3 // indirect
 	github.com/cloudflare/cloudflare-go v0.83.0 // indirect
 	github.com/coreos/go-oidc/v3 v3.6.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/denisenkom/go-mssqldb v0.12.3 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
