@@ -313,6 +313,8 @@ github.com/go-openapi/swag v0.22.3 h1:yMBqmnQ0gyZvEb/+KzuWZOXgllrXT4SADYbvDaXHv/
 github.com/go-openapi/swag v0.22.3/go.mod h1:UzaqsxGiab7freDnrUUra0MwWfN/q7tE4j+VcZ0yl14=
 github.com/go-redis/cache/v9 v9.0.0 h1:0thdtFo0xJi0/WXbRVu8B066z8OvVymXTJGaXrVWnN0=
 github.com/go-redis/cache/v9 v9.0.0/go.mod h1:cMwi1N8ASBOufbIvk7cdXe2PbPjK/WMRL95FFHWsSgI=
+github.com/go-redis/redis/v8 v8.11.5 h1:AcZZR7igkdvfVmQTPnu9WE37LRrO/YrBH5zWyjDC0oI=
+github.com/go-redis/redis/v8 v8.11.5/go.mod h1:gREzHqY1hg6oD9ngVRbLStwAWKhA0FEgq8Jd4h5lpwo=
 github.com/go-resty/resty/v2 v2.7.0 h1:me+K9p3uhSmXtrBZ4k9jcEAfJmuC8IivWHwaLZwPrFY=
 github.com/go-resty/resty/v2 v2.7.0/go.mod h1:9PWDzw47qPphMRFfhsyk0NnSgvluHcljSMVIq3w7q0I=
 github.com/go-sql-driver/mysql v1.7.0/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
@@ -855,6 +857,8 @@ github.com/sikalabs/signpost v0.5.0 h1:+e1mLXpGAoGqQotSuQAAJICoRiCcGoi1Tfjhw6IgN
 github.com/sikalabs/signpost v0.5.0/go.mod h1:NVFiPPjEXidDCs8lwrO9+dMTTgV70e0Vvey34aegmEQ=
 github.com/sikalabs/slc v0.1.0 h1:6kSYS794klodXxFHWy4eVWPKBuHR23bTes2zph12IUY=
 github.com/sikalabs/slc v0.1.0/go.mod h1:26f6SmgOc8wf4uJArbjVzzQheqF4DfyFMwAoQL2h/qM=
+github.com/sikalabs/slr v0.1.0 h1:co/zMQYt7yLsOXXmwKGMYeB5fVL302JYMikFQJTaBBw=
+github.com/sikalabs/slr v0.1.0/go.mod h1:nNBbeaH/lc8zSnccsmFgj6/Wr8p2rqOOr9Ko/3kcphc=
 github.com/sikalabs/slu v0.72.0 h1:lqC/Z4Y8PsCaRMytF8uD6ecvNDE+hsYO7TEgwLUM73s=
 github.com/sikalabs/slu v0.72.0/go.mod h1:3lq4ufWr6oDeXJbhSWTMue5s3Q6Ch5SbKz122zaSaYg=
 github.com/sikalabs/tergum v0.35.0 h1:CKsCyrqEa2HTD/wybmo+cA1twkz4H3TZ8mA3vuuSjf4=

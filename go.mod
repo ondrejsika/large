@@ -43,6 +43,7 @@ require (
 	github.com/sikalabs/mon v0.1.0-dev-1
 	github.com/sikalabs/signpost v0.5.0
 	github.com/sikalabs/slc v0.1.0
+	github.com/sikalabs/slr v0.1.0
 	github.com/sikalabs/slu v0.72.0
 	github.com/sikalabs/tergum v0.35.0
 	github.com/spf13/cobra v1.8.0
@@ -124,6 +125,7 @@ require (
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/go-redis/cache/v9 v9.0.0 // indirect
+	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
