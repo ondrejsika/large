@@ -11,6 +11,8 @@ import (
 	install_slu_root "github.com/sikalabs/install-slu/cmd/root"
 	_ "github.com/sikalabs/mon/cmd"
 	mon_root "github.com/sikalabs/mon/cmd/root"
+	_ "github.com/sikalabs/redirect-server/cmd"
+	redirect_server_root "github.com/sikalabs/redirect-server/cmd/root"
 	_ "github.com/sikalabs/signpost/cmd"
 	signpost_root "github.com/sikalabs/signpost/cmd/root"
 	_ "github.com/sikalabs/slc/cmd"
@@ -40,6 +42,7 @@ func init() {
 	LargeCmd.AddCommand(mon_root.Cmd)
 	LargeCmd.AddCommand(slc_root.RootCmd)
 	LargeCmd.AddCommand(slr_root.Cmd)
+	LargeCmd.AddCommand(redirect_server_root.Cmd)
 }
 
 func Execute() {

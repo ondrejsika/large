@@ -41,6 +41,7 @@ require (
 	github.com/sikalabs/gobble v0.6.0
 	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/mon v0.1.0-dev-1
+	github.com/sikalabs/redirect-server v0.3.0
 	github.com/sikalabs/signpost v0.5.0
 	github.com/sikalabs/slc v0.1.0
 	github.com/sikalabs/slr v0.1.0
@@ -221,7 +222,7 @@ require (
 	github.com/redis/go-redis/v9 v9.0.5 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
-	github.com/rs/zerolog v1.31.0 // indirect
+	github.com/rs/zerolog v1.32.0 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect

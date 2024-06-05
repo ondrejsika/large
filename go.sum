@@ -826,8 +826,8 @@ github.com/rogpeppe/go-internal v1.6.1/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTE
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
 github.com/rogpeppe/go-internal v1.9.0/go.mod h1:WtVeX8xhTBvf0smdhujwtBcq4Qrzq/fJaraNFVN+nFs=
 github.com/rs/xid v1.5.0/go.mod h1:trrq9SKmegXys3aeAKXMUTdJsYXVwGY3RLcfgqegfbg=
-github.com/rs/zerolog v1.31.0 h1:FcTR3NnLWW+NnTwwhFWiJSZr4ECLpqCm6QsEnyvbV4A=
-github.com/rs/zerolog v1.31.0/go.mod h1:/7mN4D5sKwJLZQ2b/znpjC3/GQWY/xaDXUM0kKWRHss=
+github.com/rs/zerolog v1.32.0 h1:keLypqrlIjaFsbmJOBdB/qvyF8KEtCWHwobLp5l/mQ0=
+github.com/rs/zerolog v1.32.0/go.mod h1:/7mN4D5sKwJLZQ2b/znpjC3/GQWY/xaDXUM0kKWRHss=
 github.com/russross/blackfriday v1.5.2/go.mod h1:JO/DiYxRf+HjHt06OyowR9PTA263kcR/rfWxYHBV53g=
 github.com/russross/blackfriday v1.6.0 h1:KqfZb0pUVN2lYqZUYRddxF4OR8ZMURnJIG5Y3VRLtww=
 github.com/russross/blackfriday v1.6.0/go.mod h1:ti0ldHuxg49ri4ksnFxlkCfN+hvslNlmVHqNRXXJNAY=
@@ -853,6 +853,8 @@ github.com/sikalabs/install-slu v0.1.0 h1:QSKPLVEUUSsOutDXAgnUDci1w8Fy5tr80jOCA+
 github.com/sikalabs/install-slu v0.1.0/go.mod h1:EzGbW6O9GBNMGDXs3juAqTw33Higj0lKLz3UljtaLOI=
 github.com/sikalabs/mon v0.1.0-dev-1 h1:UFCmXfLEWwj5zIsDfksNV58vLI3ZOfFvnU11Pc6TOiU=
 github.com/sikalabs/mon v0.1.0-dev-1/go.mod h1:Y68XgqHBkiIIE8UMGYoEQamzVi+7gGkmoS/rizGX+XA=
+github.com/sikalabs/redirect-server v0.3.0 h1:jAgRetqTVBou+Wj8ihVh97g2+jyz2nXevNCoiDxddsU=
+github.com/sikalabs/redirect-server v0.3.0/go.mod h1:xzaI/JIuATqQC4uDp7lK+DOahj8nvODutuiMaEI/4Y4=
 github.com/sikalabs/signpost v0.5.0 h1:+e1mLXpGAoGqQotSuQAAJICoRiCcGoi1Tfjhw6IgNmA=
 github.com/sikalabs/signpost v0.5.0/go.mod h1:NVFiPPjEXidDCs8lwrO9+dMTTgV70e0Vvey34aegmEQ=
 github.com/sikalabs/slc v0.1.0 h1:6kSYS794klodXxFHWy4eVWPKBuHR23bTes2zph12IUY=
