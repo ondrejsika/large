@@ -1479,8 +1479,8 @@ github.com/sikalabs/mon v0.1.0-dev-1 h1:UFCmXfLEWwj5zIsDfksNV58vLI3ZOfFvnU11Pc6T
 github.com/sikalabs/mon v0.1.0-dev-1/go.mod h1:Y68XgqHBkiIIE8UMGYoEQamzVi+7gGkmoS/rizGX+XA=
 github.com/sikalabs/redirect-server v0.3.0 h1:jAgRetqTVBou+Wj8ihVh97g2+jyz2nXevNCoiDxddsU=
 github.com/sikalabs/redirect-server v0.3.0/go.mod h1:xzaI/JIuATqQC4uDp7lK+DOahj8nvODutuiMaEI/4Y4=
-github.com/sikalabs/signpost v0.5.0 h1:+e1mLXpGAoGqQotSuQAAJICoRiCcGoi1Tfjhw6IgNmA=
-github.com/sikalabs/signpost v0.5.0/go.mod h1:NVFiPPjEXidDCs8lwrO9+dMTTgV70e0Vvey34aegmEQ=
+github.com/sikalabs/signpost v0.6.0 h1:7zzmZpJ4R9EJFu032KO+m9GQ8R9gkkwKkFfL/MplU2Y=
+github.com/sikalabs/signpost v0.6.0/go.mod h1:NVFiPPjEXidDCs8lwrO9+dMTTgV70e0Vvey34aegmEQ=
 github.com/sikalabs/slc v0.1.0 h1:6kSYS794klodXxFHWy4eVWPKBuHR23bTes2zph12IUY=
 github.com/sikalabs/slc v0.1.0/go.mod h1:26f6SmgOc8wf4uJArbjVzzQheqF4DfyFMwAoQL2h/qM=
 github.com/sikalabs/slr v0.1.0 h1:co/zMQYt7yLsOXXmwKGMYeB5fVL302JYMikFQJTaBBw=

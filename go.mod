@@ -40,7 +40,7 @@ require (
 	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/mon v0.1.0-dev-1
 	github.com/sikalabs/redirect-server v0.3.0
-	github.com/sikalabs/signpost v0.5.0
+	github.com/sikalabs/signpost v0.6.0
 	github.com/sikalabs/slc v0.1.0
 	github.com/sikalabs/slr v0.1.0
 	github.com/sikalabs/slu v0.85.0
