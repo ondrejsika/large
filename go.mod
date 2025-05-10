@@ -44,7 +44,7 @@ require (
 	github.com/sikalabs/slc v0.1.0
 	github.com/sikalabs/slr v0.1.0
 	github.com/sikalabs/slu v0.83.0
-	github.com/sikalabs/tergum v0.36.0
+	github.com/sikalabs/tergum v0.40.0
 	github.com/spf13/cobra v1.8.0
 )
 
