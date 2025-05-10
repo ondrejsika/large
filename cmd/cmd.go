@@ -5,6 +5,8 @@ import (
 	nela_root "github.com/ondrejsika/nela-cli/cmd/root"
 	_ "github.com/ondrejsika/training-cli/cmd"
 	training_cli_root "github.com/ondrejsika/training-cli/cmd/root"
+	_ "github.com/sikalabs/dogsay/cmd"
+	dogsay_root "github.com/sikalabs/dogsay/cmd/root"
 	_ "github.com/sikalabs/gobble/cmd"
 	gobble_root "github.com/sikalabs/gobble/cmd/root"
 	_ "github.com/sikalabs/install-slu/cmd"
@@ -43,6 +45,7 @@ func init() {
 	LargeCmd.AddCommand(slc_root.RootCmd)
 	LargeCmd.AddCommand(slr_root.Cmd)
 	LargeCmd.AddCommand(redirect_server_root.Cmd)
+	LargeCmd.AddCommand(dogsay_root.Cmd)
 }
 
 func Execute() {

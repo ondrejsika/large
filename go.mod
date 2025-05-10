@@ -36,6 +36,7 @@ replace (
 require (
 	github.com/ondrejsika/nela-cli v0.2.0
 	github.com/ondrejsika/training-cli v0.5.0
+	github.com/sikalabs/dogsay v0.1.0
 	github.com/sikalabs/gobble v0.6.0
 	github.com/sikalabs/install-slu v0.1.0
 	github.com/sikalabs/mon v0.1.0-dev-1
