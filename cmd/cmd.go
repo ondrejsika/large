@@ -1,6 +1,8 @@
 package cmd
 
 import (
+	_ "github.com/ondrejsika/hellogophercamp/cmd"
+	hellogophercamp_root "github.com/ondrejsika/hellogophercamp/cmd/root"
 	_ "github.com/ondrejsika/nela-cli/cmd"
 	nela_root "github.com/ondrejsika/nela-cli/cmd/root"
 	_ "github.com/ondrejsika/training-cli/cmd"
@@ -46,6 +48,7 @@ func init() {
 	LargeCmd.AddCommand(slr_root.Cmd)
 	LargeCmd.AddCommand(redirect_server_root.Cmd)
 	LargeCmd.AddCommand(dogsay_root.Cmd)
+	LargeCmd.AddCommand(hellogophercamp_root.Cmd)
 }
 
 func Execute() {

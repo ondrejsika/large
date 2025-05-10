@@ -1,6 +1,8 @@
 module github.com/ondrejsika/large
 
-go 1.23.2
+go 1.24
+
+toolchain go1.24.2
 
 replace (
 	cloud.google.com/go => cloud.google.com/go v0.100.2
@@ -34,6 +36,7 @@ replace (
 )
 
 require (
+	github.com/ondrejsika/hellogophercamp v0.1.0
 	github.com/ondrejsika/nela-cli v0.2.0
 	github.com/ondrejsika/training-cli v0.5.0
 	github.com/sikalabs/dogsay v0.1.0
@@ -46,7 +49,7 @@ require (
 	github.com/sikalabs/slr v0.1.0
 	github.com/sikalabs/slu v0.85.0
 	github.com/sikalabs/tergum v0.40.0
-	github.com/spf13/cobra v1.8.1
+	github.com/spf13/cobra v1.9.1
 )
 
 require (
@@ -104,7 +107,7 @@ require (
 	github.com/cloudflare/cloudflare-go v0.115.0 // indirect
 	github.com/coreos/go-oidc v2.3.0+incompatible // indirect
 	github.com/coreos/go-oidc/v3 v3.6.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.6 // indirect
 	github.com/creasty/defaults v1.8.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.4.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -273,7 +276,7 @@ require (
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/pflag v1.0.6 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/tidwall/transform v0.0.0-20201103190739-32f242e2dbde // indirect
 	github.com/vmihailenco/go-tinylfu v0.2.2 // indirect
