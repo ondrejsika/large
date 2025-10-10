@@ -1140,6 +1140,8 @@ github.com/olekukonko/tablewriter v1.1.0 h1:N0LHrshF4T39KvI96fn6GT8HEjXRXYNDrDjK
 github.com/olekukonko/tablewriter v1.1.0/go.mod h1:5c+EBPeSqvXnLLgkm9isDdzR3wjfBkHR9Nhfp3NWrzo=
 github.com/ondrejsika/counter v0.12.0 h1:Td+sHZIGBmr/H+2tyIthiENoENfXXL9+pWkrk9PScgA=
 github.com/ondrejsika/counter v0.12.0/go.mod h1:hud3Zo/a5QfnhB2SeV4OaEkvsODC7KxgRSCZNLaPk/c=
+github.com/ondrejsika/counter-frontend-go v0.3.0 h1:uzLK8WjGfS3GMsh45wT5+TMOt81KFiXkm06Y+cIbaz0=
+github.com/ondrejsika/counter-frontend-go v0.3.0/go.mod h1:/1FP0X3uvmLRg2ph6NOpYmH72wTXdQ39J+OcePBnUus=
 github.com/ondrejsika/fork-go-mssqldb-32bit-for-slu v1.0.1 h1:lCvf9k+OGumpvIbMG5y20qZYQQhdnRvEAE4A1/vFsKo=
 github.com/ondrejsika/fork-go-mssqldb-32bit-for-slu v1.0.1/go.mod h1:eYEc5khu5Jdv99uvgoItbm5LCPsXZ3n/9K0X2NTV94c=
 github.com/ondrejsika/go-dela v1.1.0 h1:OondBOZNvIlADT5Ufd7FagUJXhG5Kr87f3m8sza7lAo=

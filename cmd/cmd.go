@@ -1,6 +1,8 @@
 package cmd
 
 import (
+	_ "github.com/ondrejsika/counter-frontend-go/cmd"
+	counter_frontend_go_root "github.com/ondrejsika/counter-frontend-go/cmd/root"
 	_ "github.com/ondrejsika/counter/cmd"
 	counter_root "github.com/ondrejsika/counter/cmd/root"
 	_ "github.com/ondrejsika/hellogophercamp/cmd"
@@ -52,6 +54,7 @@ func init() {
 	LargeCmd.AddCommand(dogsay_root.Cmd)
 	LargeCmd.AddCommand(hellogophercamp_root.Cmd)
 	LargeCmd.AddCommand(counter_root.Cmd)
+	LargeCmd.AddCommand(counter_frontend_go_root.Cmd)
 }
 
 func Execute() {

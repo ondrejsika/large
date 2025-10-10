@@ -38,6 +38,7 @@ replace (
 
 require (
 	github.com/ondrejsika/counter v0.12.0
+	github.com/ondrejsika/counter-frontend-go v0.3.0
 	github.com/ondrejsika/hellogophercamp v0.1.0
 	github.com/ondrejsika/nela-cli v0.2.0
 	github.com/ondrejsika/training-cli v0.5.0
