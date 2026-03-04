@@ -1,6 +1,9 @@
 package cmd
 
 import (
+	"os"
+	"path/filepath"
+
 	_ "github.com/ondrejsika/counter-frontend-go/cmd"
 	counter_frontend_go_root "github.com/ondrejsika/counter-frontend-go/cmd/root"
 	_ "github.com/ondrejsika/counter/cmd"
@@ -39,24 +42,32 @@ var LargeCmd = &cobra.Command{
 	Short: "large: slu, gobble, signpost, ... in one binary",
 }
 
-func init() {
-	LargeCmd.AddCommand(slu_root.RootCmd)
-	LargeCmd.AddCommand(training_cli_root.Cmd)
-	LargeCmd.AddCommand(signpost_root.Cmd)
-	LargeCmd.AddCommand(tergum_root.Cmd)
-	LargeCmd.AddCommand(install_slu_root.Cmd)
-	LargeCmd.AddCommand(gobble_root.Cmd)
-	LargeCmd.AddCommand(nela_root.Cmd)
-	LargeCmd.AddCommand(mon_root.Cmd)
-	LargeCmd.AddCommand(slc_root.RootCmd)
-	LargeCmd.AddCommand(slr_root.Cmd)
-	LargeCmd.AddCommand(redirect_server_root.Cmd)
-	LargeCmd.AddCommand(dogsay_root.Cmd)
-	LargeCmd.AddCommand(hellogophercamp_root.Cmd)
-	LargeCmd.AddCommand(counter_root.Cmd)
-	LargeCmd.AddCommand(counter_frontend_go_root.Cmd)
-}
-
 func Execute() {
-	LargeCmd.Execute()
+	switch filepath.Base(os.Args[0]) {
+	case "slu":
+		slu_root.RootCmd.Execute()
+	case "slr":
+		slr_root.Cmd.Execute()
+	case "tergum":
+		tergum_root.Cmd.Execute()
+	case "mon":
+		mon_root.Cmd.Execute()
+	default:
+		LargeCmd.AddCommand(slu_root.RootCmd)
+		LargeCmd.AddCommand(training_cli_root.Cmd)
+		LargeCmd.AddCommand(signpost_root.Cmd)
+		LargeCmd.AddCommand(tergum_root.Cmd)
+		LargeCmd.AddCommand(install_slu_root.Cmd)
+		LargeCmd.AddCommand(gobble_root.Cmd)
+		LargeCmd.AddCommand(nela_root.Cmd)
+		LargeCmd.AddCommand(mon_root.Cmd)
+		LargeCmd.AddCommand(slc_root.RootCmd)
+		LargeCmd.AddCommand(slr_root.Cmd)
+		LargeCmd.AddCommand(redirect_server_root.Cmd)
+		LargeCmd.AddCommand(dogsay_root.Cmd)
+		LargeCmd.AddCommand(hellogophercamp_root.Cmd)
+		LargeCmd.AddCommand(counter_root.Cmd)
+		LargeCmd.AddCommand(counter_frontend_go_root.Cmd)
+		LargeCmd.Execute()
+	}
 }
